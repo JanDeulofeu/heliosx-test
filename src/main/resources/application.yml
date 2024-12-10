@@ -1,0 +1,13 @@
+logging.level:
+  root: INFO
+
+spring:
+  application.name: heliosx
+server.port: 8080
+
+springdoc:
+  api-docs:
+    path: '/api/admin/v3/api-docs'
+  swagger-ui:
+    path: '/api/admin/swagger-ui.html'
+    url: '/api/admin/v3/api-docs'
